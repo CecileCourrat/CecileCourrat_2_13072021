@@ -22,3 +22,25 @@ header {
     color: #0065FC;
     font-weight: bold;
 }
+
+/*footer*/ 
+ 
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 25px;
+}
+.a_propos a { 
+    display: flex;
+    flex-direction: column;
+}
+.nos_hebergements a {
+     display: flex;
+     flex-direction: column;
+}
+.assistance a {
+    display: flex; 
+    flex-direction: column;
+}
+

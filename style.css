@@ -1,0 +1,24 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+#bloc_page {
+    width: 1500px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.inscription a {
+    color: #0065FC;
+    font-weight: bold;
+}

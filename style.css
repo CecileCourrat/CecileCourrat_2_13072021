@@ -28,7 +28,35 @@ nav li {
     font-weight: bold;
     color: #0065FC;
 } 
+
     
+.formulaire {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    width: 25%;
+    height: 40px;
+    border-radius: 20px / 10px;
+    align-items: center;
+}
+
+.map {
+    padding: 10px 20px 10px 20px;
+    background-color: #F2F2F2;
+    border: 3px solid #F2F2F2 ;
+    border-radius: 20px / 10px;
+}
+input {
+   padding: 10px 20px 10px 20px;
+   border: none;
+}
+button {
+    padding: 10px 44px 14px 20px;
+    border-radius: 20px / 10px;
+    border: none;
+    background-color: #0065FC;
+    align-items: center;
+    color: white;
+}
 
 /*---------------------footer------------------------------*/ 
  

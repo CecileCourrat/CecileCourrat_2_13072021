@@ -2,7 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 #bloc_page {
-    width: 1500px;
+    width: 100%;
     margin: auto;
 }
 a {
@@ -10,24 +10,42 @@ a {
     color: initial;
 }
 
-/*-------------------header---------------------------------*/
+/*-------------------header-----------------------------*/
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 30px;
 }
+
 nav ul {
     display: flex;
-    list-style: none;
+    list-style-type: none;
 }
+
 nav li {
     margin-right: 60px;
 }
+
+nav a {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 44px;
+    border-top: 3px solid white;
+}
+nav a:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;    
+} 
+
 .inscription a {
     font-weight: bold;
     color: #0065FC;
 } 
+.inscription a:hover {
+    border-top: none;
+}
 
     
 .formulaire {

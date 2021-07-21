@@ -43,7 +43,7 @@ nav li {
     padding: 10px 20px 10px 20px;
     background-color: #F2F2F2;
     border: 3px solid #F2F2F2 ;
-    border-radius: 20px / 10px;
+    border-radius: 14px 0 0 14px;
 }
 input {
    padding: 10px 20px 10px 20px;
@@ -51,11 +51,50 @@ input {
 }
 button {
     padding: 10px 44px 14px 20px;
-    border-radius: 20px / 10px;
+    border-radius: 0 14px 14px 0;
     border: none;
     background-color: #0065FC;
     align-items: center;
     color: white;
+}
+
+.filtres ul {
+    display: flex;   
+}
+
+.filtreul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #0065FC;
+}
+
+.filtreli {
+    border: 3px solid #F2F2F2;
+    border-radius: 200px;
+}
+
+.fa-money-bill-wave .fa-child .fa-heart .fa-dog {
+   background-color: #DEEBFF;
+   padding: 15px;
+   border: 3px solid #DEEBFF;
+   border-radius: 200px;
+   margin: -3px 5px -3px -3px;
+}
+  
+
+
+.info p {
+    display: inline;    
+}
+
+.info .fas {
+    color: #0065FC;
+    border: 3px solid #F2F2F2;
+    border-radius: 2000px;
+    margin-right: 20px;
+    font-size: 16px;
+    padding: 7px 11px 7px 11px;    
 }
 
 /*---------------------footer------------------------------*/ 

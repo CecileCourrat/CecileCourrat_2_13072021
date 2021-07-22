@@ -8,11 +8,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">  
-        <title></title>
+        <title>Reservia</title>
     </head>
 
     <body>
-       <div id="bloc_page">
 
      <header>
           <nav>
@@ -24,23 +23,21 @@
               <li><a href="#">S'inscrire</a></li></div>
             </ul>
           </nav>
-      </header>
-
-      <main>
-        <section>
-              <div>
+     
+          <div class="search">
+          <div>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
-              </div>
-              <div class="formulaire">
+          </div>
+          <div class="formulaire">
               <div><i class=" map fas fa-map-marker-alt"></i></div>
               <form method="POST" action="traitement.php">
-                  <input type="text" name="ville" placeholder="Marseille, France">
-                  <button type="submit" class="search">Rechercher</button>
+                  <input type="search" name="ville" value="Marseille, France">
+                  <button type="submit">Rechercher</button>
               </form>
-              </div>
+          </div>
 
-              <div class="filtres">
+          <div class="filtres">
                 <h3>Filtres</h3>
                 <ul class="filtreul">
                   <li class="filtreli"><i class="fas fa-money-bill-wave"></i><a href="#" class="textefiltre">Économique</a></li>                           
@@ -48,14 +45,16 @@
                   <li class="filtreli"><i class="fas fa-heart"></i><a href="#" class="textefiltre">Romantique</a></li>
                   <li class="filtreli"><i class="fas fa-dog"></i><a href="#" class="textefiltre">Animaux autorisés</a></li>
                 </ul>  
-              </div>
+          </div>
 
-              <div class="info">
+          <div class="info">
                 <i class="fas fa-info"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
-              </div>
-        </section>
+          </div>
+          </div>
+       </header>
 
+         <main>
          <section id="hebergements">
               <div>
                 <h2>Hébergements à Marseille</h2>
@@ -155,6 +154,5 @@
           <a href="#">Nous contacter</a>
         </div>
        </footer>
-     </div>
     </body>
 </html>

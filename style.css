@@ -1,10 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-#bloc_page {
-    width: 100%;
-    margin: auto;
-}
+
 a {
     text-decoration: none;
     color: initial;
@@ -32,6 +29,7 @@ nav a {
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 44px;
+    padding-bottom: 44px;
     border-top: 3px solid white;
 }
 nav a:hover {
@@ -50,33 +48,43 @@ nav a:hover {
 
 /*-----------------------------search----------------------------*/
 
+.search {
+    margin: 30px;
+}
+
 .formulaire {
     display: flex;
-    border: 1px solid #F2F2F2;
-    width: 25%;
-    height: 40px;
-    border-radius: 20px / 10px;
     align-items: center;
+    border: 1px solid #F2F2F2;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px / 10px;
 }
 
 .map {
-    padding: 10px 20px 10px 20px;
+    padding: 17px 16px 17px 16px;
     background-color: #F2F2F2;
-    border: 3px solid #F2F2F2 ;
-    border-radius: 14px 0 0 14px;
+    border: 1px solid #F2F2F2 ;
+    border-radius: 14px 0 0 14px;  
+    text-align: center;
 }
+
 input {
-   padding: 10px 20px 10px 20px;
+   padding: 10px 15px 10px 15px;
    border: none;
+   font-weight: bold;
 }
+
 button {
-    padding: 10px 44px 14px 20px;
+    padding: 19px 43px 14px 40px;
     border-radius: 0 14px 14px 0;
     border: none;
     background-color: #0065FC;
     align-items: center;
     color: white;
+    font-weight: bold;
 }
+
 
 .filtres ul {
     display: flex;   
@@ -111,7 +119,7 @@ button {
 .info .fas {
     color: #0065FC;
     border: 3px solid #F2F2F2;
-    border-radius: 2000px;
+    border-radius: 100%;
     margin-right: 20px;
     font-size: 16px;
     padding: 7px 11px 7px 11px;    

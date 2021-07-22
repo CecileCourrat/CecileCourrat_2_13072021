@@ -9,6 +9,8 @@ a {
 
 /*-------------------header-----------------------------*/
 
+/*----------------navigation----------------------------*/
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -70,7 +72,7 @@ nav a:hover {
 }
 
 input {
-   padding: 10px 15px 10px 15px;
+   padding: 15px;
    border: none;
    font-weight: bold;
 }
@@ -85,32 +87,42 @@ button {
     font-weight: bold;
 }
 
+/*-------------------------filtres---------------------*/
 
-.filtres ul {
-    display: flex;   
+.filtres {
+    display: flex;
+    align-items: center;
 }
 
-.filtreul {
+h3 + ul  {
     display: flex;
     justify-content: space-around;
-    list-style: none;
-    color: #0065FC;
 }
 
-.filtreli {
+.filtres  ul li {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    list-style: none;
     border: 3px solid #F2F2F2;
     border-radius: 200px;
+    padding: 0 20px 0 0;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: bold;
 }
-
-.fa-money-bill-wave .fa-child .fa-heart .fa-dog {
+   
+.ifiltre  {
    background-color: #DEEBFF;
-   padding: 15px;
-   border: 3px solid #DEEBFF;
-   border-radius: 200px;
-   margin: -3px 5px -3px -3px;
+   color: #0065FC;
+   border-radius: 20px;
+   padding: 18px;
+   margin-right: 20px;   
 }
-  
 
+.filtres ul li:hover {
+   background-color: #DEEBFF;
+}
 
 .info p {
     display: inline;    

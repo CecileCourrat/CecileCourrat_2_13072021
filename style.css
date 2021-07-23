@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -94,12 +95,12 @@ button {
     align-items: center;
 }
 
-h3 + ul  {
+.filtres h3 + ul  {
     display: flex;
     justify-content: space-around;
 }
 
-.filtres  ul li {
+.filtres ul li {
     display: flex;
     justify-content: space-around; 
     align-items: center;
@@ -142,19 +143,21 @@ h3 + ul  {
 footer {
     background-color: #F2F2F2;
     display: flex;
-    justify-content:space-around;
-    padding-bottom: 25px;
-}
-.a_propos a { 
-    display: flex;
-    flex-direction: column;
-}
-.nos_hebergements a {
-     display: flex;
-     flex-direction: column;
-}
-.assistance a {
-    display: flex; 
-    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    padding-top: 18px;
 }
 
+footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+.footerliste {
+   width: 50%;
+   margin-left: 30px;
+}
+footer li {
+    padding: 5px;
+}

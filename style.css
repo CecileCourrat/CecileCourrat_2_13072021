@@ -71,7 +71,7 @@ nav a:hover {
     border: 1px solid #F2F2F2 ;
     border-radius: 14px 0 0 14px;  
     text-align: center;
-    width: 30px;
+    width: 32px;
 }
 
 input {
@@ -89,7 +89,7 @@ button {
     text-align: center;
     color: white;
     font-weight: bold;
-    width: 180px;
+    width: 170px;
     height: 50px;
 }
 
@@ -122,8 +122,8 @@ button {
    background-color: #DEEBFF;
    color: #0065FC;
    border-radius: 200px;
-   padding: 18px;
-   margin-right: 20px;   
+   padding: 25px;
+   margin-right: 25px;   
 }
 
 .filtres ul li:hover {
@@ -145,20 +145,75 @@ button {
 
 /*--------------------hebergements------------------------*/
 
-#hebergements {
-    margin: 50px;
+.hebergements_central {
+    display: flex;
+    justify-content: space-around;     
 }
 
+.hebergements_principaux {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 60%;    
+}
+
+.hebergements_principaux h2 {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.populaire {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 30%;
+}
+
+.hotel1, .hotel2{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px;
+}
+
+.hotel img {
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.hebergements_central article {
+    background-color: white;
+    border: 4px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px #e2e2e2;
+    width: 250px;   
+}
+
+.hotel h3, p, i {
+    margin-left: 10px;
+
+}
+.full {
+    color: #0065FC;
+}
+.empty {
+    color: #e2e2e2;
+}
+
+.plus {
+    padding-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
 /*---------------------activites---------------------------*/
 
 #activites {
     margin: 30px;
 }
 
-article {
+.activites article {
     border: 2px solid #F2F2F2;
     border-radius: 20px;
-    box-shadow: 1px 1px 8px #F2F2F2;
+    box-shadow: 1px 1px 8px #e2e2e2;
 }
 
 .activites {
@@ -219,7 +274,7 @@ article {
     height: 240px;
 } 
 
-article h3 {
+.activites h3 {
     margin-left: 20px;
 }
 

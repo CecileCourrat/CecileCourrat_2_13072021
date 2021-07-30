@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 
-/*-----------------------------search----------------------------*/
+/*-----------------------------search----------------------*/
 
 .search {
     margin: 30px;
@@ -60,7 +60,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     border: 1px solid #F2F2F2;
-    width: 450px;
+    width: 441px;
     height: 50px;
     border-radius: 20px / 10px;
 }
@@ -224,9 +224,8 @@ button {
     border: 4px solid white;
     border-radius: 20px;
     box-shadow: 1px 1px 8px #e2e2e2;
-    width: 250px;   
+    width: 350px;   
     margin: 8px;
-    display: flex;
 }
 
 .hotel_populaire img {

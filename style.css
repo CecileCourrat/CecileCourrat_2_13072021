@@ -225,7 +225,9 @@ button {
     border-radius: 20px;
     box-shadow: 1px 1px 8px #e2e2e2;
     width: 350px;   
-    margin: 8px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
 }
 
 .hotel_populaire img {

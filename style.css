@@ -6,7 +6,7 @@ body {
 
 a {
     text-decoration: none;
-    color: initial;
+    color: black;
 }
 
 /*-------------------header-----------------------------*/
@@ -323,7 +323,6 @@ button {
 footer {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
     padding-bottom: 30px;
     padding-top: 18px;    
 }
@@ -343,3 +342,20 @@ footer ul {
 footer li {
     padding: 5px;
 }
+
+footer h3 {
+    margin-left: 5px;
+}
+
+/*----------------------media queries-------------------*/
+/*Small devices ( portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    footer {
+        flex-direction: column;
+    }
+    .footerliste {
+        width: 80%;
+    }
+}
+

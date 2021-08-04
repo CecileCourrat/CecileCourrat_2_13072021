@@ -242,10 +242,16 @@ button {
 
 #activites {
     margin: 30px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+#activites h2 {
+    margin-left: 25px;
 }
 
 .activites article {
-    border: 2px solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 20px;
     box-shadow: 1px 1px 8px #e2e2e2;
 }
@@ -348,14 +354,32 @@ footer h3 {
 }
 
 /*----------------------media queries-------------------*/
-/*Small devices ( portrait phones, less than 576px)*/
 
-@media (max-width: 575.98px) {
+/*---Small devices ( portrait phones, less than 576px)--*/
+
+@media screen and (max-width: 575.98px) {
+
+    .activites {
+        flex-direction: column;
+    }
+    .activites img {
+        width: 100%;
+        height: 150px;
+    }
+    .activites article {
+        height: auto;
+        margin: 10px;
+    }
+
+    #activites h2 {
+        margin-left: 18px;
+    }
+
     footer {
         flex-direction: column;
     }
     .footerliste {
         width: 80%;
-    }
+    }  
 }
 

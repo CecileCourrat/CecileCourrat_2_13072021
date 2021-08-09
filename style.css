@@ -13,6 +13,7 @@ a {
 
 /*----------------navigation----------------------------*/
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -50,9 +51,9 @@ nav a:hover {
 }
 
 
-/*-----------------------------search----------------------*/
+/*--------------------recherche-----------------------*/
 
-.search {
+.recherche {
     margin: 30px;
 }
 
@@ -60,7 +61,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     border: 1px solid #F2F2F2;
-    width: 441px;
+    width: 30vw;
     height: 50px;
     border-radius: 20px / 10px;
 }
@@ -68,18 +69,17 @@ nav a:hover {
 .map {
     padding: 17px 16px 17px 16px;
     background-color: #F2F2F2;
-    border: 1px solid #F2F2F2 ;
     border-radius: 14px 0 0 14px;  
     text-align: center;
-    width: 32px;
 }
 
-input {
+.ville {
    border: none;
    font-weight: bold;
-   width: 200px;
+   width: 18vw;
    height: 50px;
-   text-align: center;
+   text-align: start;
+   padding-left: 10px;
 }
 
 button {
@@ -89,8 +89,12 @@ button {
     text-align: center;
     color: white;
     font-weight: bold;
-    width: 170px;
+    width: 8vw;
     height: 50px;
+}
+
+.icone_loupe {
+    display: none;
 }
 
 /*-------------------------filtres---------------------*/
@@ -375,9 +379,63 @@ footer h3 {
 
 /*----------------------media queries-------------------*/
 
-/*---Small devices ( portrait phones, less than 576px)--*/
+/*-----------smartphones (portrait) moins de 576px------*/
 
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width : 575.98px) {
+
+
+   .inscription {
+       position: absolute;
+       top: 47px;
+       right: 0px; 
+   }
+
+    nav {
+        flex-wrap: wrap;
+    }
+    
+    nav a {
+        border-top: none;
+
+    }
+     
+    nav li {
+        margin: 0;
+    }
+
+    .menu_hebergements {
+        width: 50%;
+        padding-top: 20px;
+        margin-right: 25px;
+        padding-bottom: 15px;
+        border-bottom: 4px solid #F2F2F2;
+    }
+    
+    
+    .menu_activites {
+        width: 50%;
+        padding-top: 20px;
+        border-bottom: 4px solid #F2F2F2;
+    }
+
+    .formulaire {
+        width: 90%;
+    }
+
+    .bouton_recherche {
+        display: none;
+    }
+
+   .ville {
+        width: 48vw;
+
+    }
+
+    .icone_loupe {
+        display: unset;
+        width: 50px;
+        border-radius: 15px;   
+    }
 
     .filtres {
         flex-direction: column;
@@ -387,9 +445,11 @@ footer h3 {
     .filtres ul {
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 0;
+        padding: 0;
+        margin-left: 2px;
     }
- 
+
+
     #hebergements {
           flex-direction: column-reverse;
       }
@@ -433,6 +493,7 @@ footer h3 {
         width: 100%;
         height: 30vw;
     }
+
 
     .plus {
         margin-bottom: 5px;

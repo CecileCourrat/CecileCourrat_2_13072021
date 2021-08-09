@@ -18,13 +18,13 @@
           <nav>
             <img src="./images/logo/Reservia.svg" alt="logo">
             <ul>
-              <li><a href="#hebergements">Hébergements</a></li>
-              <li><a href="#activites">Activités</a></li>
+              <li class="menu_hebergements"><a href="#hebergements">Hébergements</a></li>
+              <li class="menu_activites"><a href="#activites">Activités</a></li>
               <li class="inscription"><a href="#">S'inscrire</a></li>
             </ul>
           </nav>
      
-          <div class="search">
+          <div class="recherche">
           <div>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
@@ -32,8 +32,9 @@
           <div class="formulaire">
               <div><i class=" map fas fa-map-marker-alt"></i></div>
               <form method="POST">
-                  <input type="search" name="ville" value="Marseille, France">
-                  <button type="submit">Rechercher</button>
+                  <input class="ville" type="search" name="ville" value="Marseille, France">
+                  <button class="bouton_recherche" type="submit">Rechercher</button>
+                  <button class="icone_loupe" type="submit"><i class="fas fa-search"></i></button>
               </form>
           </div>
 

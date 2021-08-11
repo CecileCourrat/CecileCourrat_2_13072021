@@ -381,7 +381,7 @@ footer h3 {
 
 /*----------------------tablette (paysage---------------*/
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media screen and (max-width: 1024) {
 
 
     .formulaire {
@@ -428,7 +428,7 @@ footer h3 {
 
 /*----------------------tablette (portrait)-------------*/
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)  {
+@media screen and (max-width: 768px) {
     
     .inscription {
         position: absolute;
@@ -458,18 +458,15 @@ footer h3 {
          padding-top: 60px;
          margin-right: 0;
          padding-bottom: 15px;
-         border-bottom: 4px solid #F2F2F2;
      }
      
      .menu_activites {
          width: 50%;
          padding-top: 60px;
-         border-bottom: 4px solid #F2F2F2;
      }
  
      nav a:hover {
          border-top: none;
-         border-bottom: 4px solid #0065FC;
      }
 
     .formulaire {
@@ -522,10 +519,7 @@ footer h3 {
         height: 30vw;
     }
 
-    .etoile_pop {
-        margin: 90px 0 0 15px;
-    }
-
+   
 
     .hebergements_principaux {
         width: 100%;
@@ -580,7 +574,7 @@ footer h3 {
 
 /*-----------smartphones (portrait)-------------*/
 
-@media only screen and (max-device-width : 480px) {
+@media screen and (max-width: 576px) {
 
 
    .inscription {
@@ -601,23 +595,42 @@ footer h3 {
         margin: 0;
     }
 
+    nav a {
+        border-top: none;
+    }
+
     .menu_hebergements {
         width: 50%;
         padding-top: 20px;
         margin-right: 25px;
         padding-bottom: 15px;
-        border-bottom: 4px solid #F2F2F2;
     }
     
     .menu_activites {
         width: 50%;
         padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    nav ul {
         border-bottom: 4px solid #F2F2F2;
     }
 
     nav a:hover {
         border-top: none;
+    }
+
+    
+    .menu_hebergements:hover {
         border-bottom: 4px solid #0065FC;
+    }
+
+    .menu_activites:hover {
+        border-bottom: 4px solid #0065FC;
+    }
+
+    .recherche p {
+        margin-bottom: 10vw;
     }
 
     .formulaire {
@@ -661,6 +674,10 @@ footer h3 {
           padding-bottom: 15px;
     }
 
+    .titre_populaire {
+        padding-left: 0;
+    }
+
     .hotel_populaire {
         width: 80%;
         height: 40vw;
@@ -682,7 +699,7 @@ footer h3 {
      }
     
     .hebergements_principaux h2 {
-        margin-left: 0px;
+        padding-left: 20px;
     }
 
     .hebergements_principaux article {

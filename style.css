@@ -286,57 +286,47 @@ button {
 }
 
 .vieux_port img {
-    width: 300px;
-    height: 450px;
+    width: 22vw;
+    height: 30vw;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
 
 .calanques img {
-    width: 300px;
-    height: 450px;
+    width: 22vw;
+    height: 30vw;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
 
 .fort img {
-    width: 300px;
-    height: 180px;
+    width: 20vw;
+    height: 11vw;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.fort {
-    height: 240px;
-}
+
 .frioul img {
-    width: 300px;
-    height: 180px;
+    width: 20vw;
+    height: 11vw;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 } 
-.frioul {
-    height: 240px;
-}
+
 
 .notre_dame img {
-    width: 300px;
-    height: 180px;
+    width: 20vw;
+    height: 11vw;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-}
-.notre_dame {
-    height: 240px;
 }
 
 .parc img {
-    width: 300px;
-    height: 180px;
+    width: 20vw;
+    height: 11vw;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.parc {
-    height: 240px;
-} 
 
 .activites h3 {
     margin-left: 20px;
@@ -381,7 +371,7 @@ footer h3 {
 
 /*----------------------tablette (paysage---------------*/
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) {
 
 
     .formulaire {
@@ -390,36 +380,33 @@ footer h3 {
   
 
     .hebergements_principaux article {
-        width: 90%;
-        height: auto;
+        height: 20vw;
         margin: 10px;
         margin-left: 25px;
     }
+
    
     .hotel_populaire {
         width: 85%;
-        height: 20%;
     }
-
-    
+  
 
     .etoile_pop {
         margin: 0px 0px 0px 15px;
     }
 
-    #activites {
+    #activites h2 {
         margin-left: 0;
     }
 
     .activites img {
-        width: 100%
+        width: 100%;
     }
 
     .activites article {
-        width: 21vw;
+        width: 20vw;
         height: auto;
     }
-
 
     footer {
         width: 100%;
@@ -451,7 +438,10 @@ footer h3 {
      nav ul {
          width: 100%;
          padding: 0;
+         border-bottom: 4px solid #F2F2F2;
+         text-align: center;
      }
+
  
      .menu_hebergements {
          width: 50%;
@@ -463,7 +453,16 @@ footer h3 {
      .menu_activites {
          width: 50%;
          padding-top: 60px;
+         padding-bottom: 15px;
      }
+
+     .menu_hebergements:hover {
+        border-bottom: 4px solid #0065FC;
+    }
+
+    .menu_activites:hover {
+        border-bottom: 4px solid #0065FC;
+    }
  
      nav a:hover {
          border-top: none;
@@ -479,7 +478,6 @@ footer h3 {
 
    .ville {
         width: 48vw;
-
     }
 
     .icone_loupe {
@@ -489,16 +487,17 @@ footer h3 {
     }
 
 
-    .filtres ul{
+    .filtres ul {
         flex-direction: column;
         align-items: flex-start ;
     }
 
     .filtres {
 
-    align-items: flex-start;
-    flex-direction: column;
-}
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
     #hebergements {
         flex-direction: column-reverse;
     }
@@ -518,39 +517,38 @@ footer h3 {
         width: 30vw;
         height: 30vw;
     }
-
-   
-
+  
     .hebergements_principaux {
         width: 100%;
         background-color: white;
     }
 
-  .hotel1, .hotel2 {
+    .hotel1, .hotel2 {
        flex-direction: column;
        margin: 5px;
-   }
+    }
 
    .hebergements_principaux h2 {
     margin-left: 0px;
-}
+    }
 
-.hebergements_principaux article {
+    .hebergements_principaux article {
     width: 90%;
     height: auto;
     margin: 10px;
     margin-left: 25px;
-}
-.hebergements_principaux img {
+    }
+
+   .hebergements_principaux img {
     width: 100%;
     height: 30vw;
-}
+   }
 
 
-.plus {
+   .plus {
     margin-bottom: 5px;
     margin-left: 10px;
-}
+    }
 
 
     .activites {
@@ -564,6 +562,7 @@ footer h3 {
 
     .activites article {
         height: auto;
+        width: 85vw;
         margin: 10px;
     }
 
@@ -729,6 +728,7 @@ footer h3 {
     .activites article {
         height: auto;
         margin: 10px;
+        width: 80vw;
     }
 
     #activites h2 {

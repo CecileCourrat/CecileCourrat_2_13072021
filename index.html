@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,24 +25,24 @@
           </nav>
      
           <div class="recherche">
-          <div>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre ville ou en pleine nature</p>
-          </div>
-          <div class="formulaire">
-              <div><i class=" map fas fa-map-marker-alt"></i></div>
-              <form method="POST">
-                  <input class="ville" type="search" name="ville" value="Marseille, France">
-                  <button class="bouton_recherche" type="submit">Rechercher</button>
-                  <button class="icone_loupe" type="submit"><i class="fas fa-search"></i></button>
-              </form>
-          </div>
+            <div>
+                  <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                  <p>En plein centre ville ou en pleine nature</p>
+            </div>
+          
+          <form method="POST" class="formulaire">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="search" name="ville" class="ville" value="Marseille, France">
+            <button type="submit" class="bouton_rechercher">Rechercher</button>
+            <button type="submit" class="icone_loupe"><i class="fas fa-search"></i></button>                       
+        </form>
+       
 
           <div class="filtres">
             <h3>Filtres</h3>
                 <ul>
-                  <li class="eco"><i class="fas fa-money-bill-wave ifiltre"></i><a href="#">Économique</a></li>                           
-                  <li class="familial"><i class="fas fa-child ifiltre"></i><a href="#">Familial</a></li>
+                  <li><i class="fas fa-money-bill-wave ifiltre"></i><a href="#">Économique</a></li>                           
+                  <li><i class="fas fa-child ifiltre"></i><a href="#">Familial</a></li>
                   <li><i class="fas fa-heart ifiltre"></i><a href="#">Romantique</a></li>
                   <li><i class="fas fa-dog ifiltre"></i><a href="#">Animaux autorisés</a></li>
                 </ul>  

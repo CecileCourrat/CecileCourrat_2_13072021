@@ -58,42 +58,42 @@ nav a:hover {
 }
 
 .formulaire {
+
     display: flex;
-    align-items: center;
-    border: 1px solid #F2F2F2;
     width: 30vw;
-    height: 50px;
-    border-radius: 20px / 10px;
+    margin: 10px 0 20px 0;
 }
 
-.map {
-    padding: 17px 16px 17px 16px;
+.fa-map-marker-alt {
+   
     background-color: #F2F2F2;
-    border-radius: 14px 0 0 14px;  
-    text-align: center;
+    padding: 15px;
+    border-radius: 15px 0 0 15px;
+    border: 3px solid #F2F2F2;
 }
 
 .ville {
-   border: none;
-   font-weight: bold;
-   width: 18vw;
-   height: 50px;
-   text-align: start;
-   padding-left: 10px;
+
+    padding: 15px;
+    font-weight: bold;
+    border-right: none;
+    border: 2px solid #F2F2F2;
+    height: 53px;
+    font-size: 1rem;
 }
 
-button {
-    border-radius: 0 14px 14px 0;
-    border: none;
-    background-color: #0065FC;
-    text-align: center;
+.bouton_rechercher {
+
     color: white;
     font-weight: bold;
-    width: 8vw;
-    height: 50px;
+    padding: 15px;
+    background-color: #0065FC;
+    border:3px #0065FC solid;
+    border-radius: 0 15px 15px 0;
 }
 
 .icone_loupe {
+
     display: none;
 }
 
@@ -104,22 +104,22 @@ button {
     align-items: center;
 }
 
-.filtres h3 + ul  {
+ h3 + ul  {
     display: flex;
     justify-content: space-around;
+    list-style: none;
 }
 
-.filtres ul li {
+.filtres li {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
-    list-style: none;
     border: 3px solid #F2F2F2;
     border-radius: 200px;
+    font-weight: bold;
     padding: 0 20px 0 0;
     margin-top: 10px;
     margin-left: 25px;
-    font-weight: bold;
 }
    
 .ifiltre  {
@@ -130,7 +130,7 @@ button {
    margin-right: 25px;   
 }
 
-.filtres ul li:hover {
+.filtres li:hover {
    background-color: #DEEBFF;
 }
 
@@ -472,7 +472,7 @@ footer h3 {
         width: 90%;
     }
 
-    .bouton_recherche {
+    .bouton_rechercher {
         display: none;
     }
 
@@ -483,13 +483,17 @@ footer h3 {
     .icone_loupe {
         display: unset;
         width: 50px;
-        border-radius: 15px;   
+        background-color: #0065FC;
+        color: white;
+        border: 2px solid #0065FC;
+        border-radius: 0 15px 15px 0;    
     }
 
 
     .filtres ul {
         flex-direction: column;
         align-items: flex-start ;
+        padding-left: 0;
     }
 
     .filtres {
@@ -636,7 +640,7 @@ footer h3 {
         width: 90%;
     }
 
-    .bouton_recherche {
+    .bouton_rechercher {
         display: none;
     }
 
@@ -647,20 +651,17 @@ footer h3 {
 
     .icone_loupe {
         display: unset;
+        background-color: #0065FC;
+        color: white;
+        border: 2px solid #0065FC;
         width: 50px;
-        border-radius: 15px;   
+        border-radius: 0 15px 15px 0;   
     }
 
     .filtres {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .filtres ul {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0;
-        margin-left: 2px;
     }
 
     #hebergements {

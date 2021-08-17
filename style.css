@@ -102,6 +102,7 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .filtres li {
@@ -363,7 +364,39 @@ footer h3 {
 
 /*----------------------media queries-------------------*/
 
-/*----------------------tablette (paysage---------------*/
+@media screen and (max-width: 1340px) {
+
+
+    .hebergements_principaux article {
+        height: 20vw;
+        width: 17vw;
+        margin: 10px;
+    }
+
+    .hotel_populaire {
+        height: 15vw;
+    }
+
+    .hotel_populaire img {
+        height: 100%;
+    }
+
+    .etoile_pop {
+        margin: 0 0 0 15px;
+    }
+
+    .activites article {
+        width: 17vw;
+        height: auto;
+    }
+
+    .activites img {
+        width: 100%;
+    }
+
+}
+    
+/*----------------------tablette (paysage)---------------*/
 
 @media screen and (max-width: 1024px) {
 
@@ -374,17 +407,37 @@ footer h3 {
     h3 + ul {
         padding-left: 5px;
     }
+
+    #hebergements {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements_principaux {
+        width: 100%;
+        margin-top: 25px;
+        border-radius: 0;
+    }
   
     .hebergements_principaux article {
-        height: 20vw;
+        height: 22vw;
         margin: 10px;
-        margin-left: 25px;
+        margin-left: 25px; 
+        width: 22vw;     
+    }
+
+    .hotel img {
+        height: 12vw;
     }
 
     .hotel_populaire {
         width: 85%;
     }
-  
+
+    .populaire {
+        width: 100%;
+        border-radius: 0;
+    }
+ 
     .etoile_pop {
         margin: 0px 0px 0px 15px;
     }
@@ -474,7 +527,7 @@ footer h3 {
     }
 
     .icone_loupe {
-        display: unset;
+        display: unset; 
         width: 50px;
         background-color: #0065FC;
         color: white;
@@ -482,21 +535,10 @@ footer h3 {
         border-radius: 0 15px 15px 0;    
     }
 
-    .filtres ul {
-        flex-direction: column;
-        align-items: flex-start ;
-        padding-left: 0;
-    }
-
-    .filtres {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
     #hebergements {
         flex-direction: column-reverse;
     }
-
+    
     .populaire {
         width: 100%;
         border-radius: 0;
@@ -507,7 +549,7 @@ footer h3 {
         width: 85%;
         height: 30vw;
     }
-
+    
     .hotel_populaire img {
         width: 30vw;
         height: 30vw;
@@ -537,7 +579,7 @@ footer h3 {
    .hebergements_principaux img {
         width: 100%;
         height: 30vw;
-   }
+    }
 
    .plus {
         margin-bottom: 5px;
@@ -629,7 +671,7 @@ footer h3 {
     }
 
     .bouton_rechercher {
-        display: none;
+       display: none; 
     }
 
    .ville {
@@ -646,8 +688,11 @@ footer h3 {
 
     .filtres {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    h3 + ul {
+        justify-content: flex-start;
     }
 
     #hebergements {
@@ -655,9 +700,9 @@ footer h3 {
     }
 
     .populaire {
-          width: 100%;
-          border-radius: 0;
-          padding-bottom: 15px;
+        width: 100%;
+        border-radius: 0;
+        padding-bottom: 15px;
     }
 
     .titre_populaire {

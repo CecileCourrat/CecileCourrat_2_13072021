@@ -100,7 +100,6 @@ nav a:hover {
 
  h3 + ul  {
     display: flex;
-    justify-content: space-around;
     list-style: none;
     flex-wrap: wrap;
 }

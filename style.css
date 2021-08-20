@@ -47,6 +47,7 @@ nav a:hover {
     font-weight: bold;
     color: #0065FC;
 } 
+
 .inscription a:hover {
     border-top: none;
 }
@@ -120,8 +121,8 @@ nav a:hover {
    background-color: #DEEBFF;
    color: #0065FC;
    border-radius: 200px;
-   padding: 25px;
-   margin-right: 25px;   
+   padding: 15px;
+   margin-right: 25px;
 }
 
 .filtres li:hover {
@@ -367,7 +368,7 @@ footer h3 {
 
 
     .hebergements_principaux article {
-        height: 20vw;
+        height: 18vw;
         width: 17vw;
         margin: 10px;
     }
@@ -385,7 +386,7 @@ footer h3 {
     }
 
     .activites article {
-        width: 17vw;
+        width: 19vw;
         height: auto;
     }
 
@@ -553,6 +554,7 @@ footer h3 {
         width: 30vw;
         height: 30vw;
     }
+
   
     .hebergements_principaux {
         width: 100%;
@@ -583,6 +585,10 @@ footer h3 {
    .plus {
         margin-bottom: 5px;
         margin-left: 10px;
+    }
+
+    #activites {
+        margin: 40px;
     }
 
     .activites {
@@ -682,7 +688,7 @@ footer h3 {
         background-color: #0065FC;
         color: white;
         width: 50px;
-        border-radius: 0 15px 15px 0;   
+        border-radius: 0 15px 15px 0; 
     }
 
     .filtres {
@@ -718,6 +724,7 @@ footer h3 {
         height: 40vw;
     }
 
+
     .hebergements_principaux {
         width: 100%;
         background-color: white;
@@ -747,6 +754,10 @@ footer h3 {
     .plus {
         margin-bottom: 5px;
         margin-left: 10px;
+    }
+
+    #activites {
+        margin: 20px;
     }
 
     .activites {

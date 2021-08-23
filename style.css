@@ -442,6 +442,10 @@ footer h3 {
         margin: 0px 0px 0px 15px;
     }
 
+    .hotel_populaire img {
+        width: 30vw;
+    }
+
     #activites h2 {
         margin-left: 0;
     }
@@ -532,7 +536,9 @@ footer h3 {
         background-color: #0065FC;
         color: white;
         border: none;
-        border-radius: 0 15px 15px 0;    
+        border-radius: 15px;
+        border-right: none;
+        margin-left: -10px;
     }
 
     #hebergements {
@@ -613,7 +619,7 @@ footer h3 {
 
 /*-------------smartphones (portrait)-------------*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 674px) {
 
 
     .inscription {
@@ -667,6 +673,10 @@ footer h3 {
         border-bottom: 4px solid #0065FC;
     }
 
+    .recherche {
+        margin: 20px;
+    }
+
     .recherche p {
         margin-bottom: 10vw;
     }
@@ -681,19 +691,30 @@ footer h3 {
 
    .ville {
         width: 48vw;
+        border-right: none;
     }
 
     .icone_loupe {
         display: unset;
         background-color: #0065FC;
         color: white;
-        width: 50px;
-        border-radius: 0 15px 15px 0; 
+        padding: 18px;
+        border-radius: 15px;
+       
+ 
     }
 
     .filtres {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .ifiltre {
+        margin-right: 10px;
+    }
+
+    .filtres li {
+        margin-left: 5px;
     }
 
     h3 + ul {
